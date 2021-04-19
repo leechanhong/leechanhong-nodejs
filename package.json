@@ -1,7 +1,7 @@
 {
   "name": "leechanhong-nodejs",
   "version": "0.3.0",
-  "description": "스프링 프로젝트에 실시간 차트기능을 구현해주는 노드js기반의 socket앱",
+  "description": "스프링 프로젝트에 실시간 챠트기능을 구현해 주는 노드js기반의 socket앱",
   "engines": {
     "node": "14.x"
   },
@@ -12,7 +12,8 @@
   },
   "dependencies": {
     "ejs": "^3.1.5",
-    "express": "^4.15.2"
+    "express": "^4.15.2",
+    "socket.io": "1.4.8"
   },
   "devDependencies": {
     "got": "^11.3.0",
